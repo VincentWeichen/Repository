@@ -1,0 +1,20 @@
+﻿.PopupShade { position:absolute; width:1000px; height:800px; background-color:#333; filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5; top:0; left:0; }
+	.PopupBox { position:absolute; border:1px #DDD solid; top:50px; left:100px;}
+		.PopupTitle {height:31px;background-color:#497a89;border-bottom:1px #DDD solid}
+			.PopupTitle h1 {float:left;margin:0;padding:0; font-size:14px; height:31px; line-height:31px; overflow:hidden; text-indent:10px; color:#FFF; }
+			.PopupTitle a {display:block; float:right; margin:8px 10px 0 0; width:16px; height:16px; background-position:left top; background-image:url('../Images/Icon_Attachment_Delete.png'); background-repeat:no-repeat;}
+			.PopupTitle a:hover {background-position:left -16px;}
+		
+		.PopupContent {background-color:#FFF; padding-bottom:15px;}
+	
+		.PopupButton { height:38px; background-color:#F1F1F1; border-top:1px #DDD solid; padding:5px 10px 0 0; }
+			.PopupButton a {float:right;margin-left:10px;}
+			
+		
+		.PopupBox .alert {background-image:url("../Images/Icon_Dialog_Attention.png"); background-repeat:no-repeat; background-position:15px 15px; padding:20px 0 20px 65px;}
+		
+		.PopupContent table td {padding-right:10px;}
+		.TableListCondition { padding-bottom:10px;}
+			.TableListCondition select {margin-right:10px;vertical-align:middle;padding:3px 5px;border:1px #666 solid; }
+			.TableListCondition input {margin-right:10px; vertical-align:middle; margin:0;width:100px;height:21px;border:1px #666 solid;}
+			.TableListCondition input[type="button"] {margin-left:10px;width:auto;height:25px;padding:3px 10px 2px 10px;}

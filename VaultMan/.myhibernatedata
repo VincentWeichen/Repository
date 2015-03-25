@@ -1,0 +1,25 @@
+#MyEclipse Hibernate Properties
+#Wed Nov 05 21:02:23 CST 2014
+sessionFactoryName=supton.HibernateSessionFactory
+genBasicCompId=true
+profile=
+daoSFId=
+version=4.1
+jndiPath=
+detectM2M=true
+reStrategyClass=
+detectO2O=true
+springDaoFile=
+useJavaTypes=false
+keyGenerator=native
+libInstallFolder=WebContent/WEB-INF/lib
+addLibs2Project=false
+genVersionTag=true
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=true
+reSettingsFile=/VaultMan/src/supton/hibernate.reveng.xml
+configFile=/VaultMan/src/supton/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=false
+baseDaoClass=supton.common.BaseHibernateDAO
